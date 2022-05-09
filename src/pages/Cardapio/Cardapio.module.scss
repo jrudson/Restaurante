@@ -1,0 +1,14 @@
+@import 'styles/_variaveis.scss';
+@import 'styles/_breakpoint.scss';
+
+.cardapio {
+
+    &__filtros {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
